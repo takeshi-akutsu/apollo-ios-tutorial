@@ -14,8 +14,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5658145429080D92008F8691 /* Apollo-ios-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apollo-ios-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5658145729080D92008F8691 /* Apollo_ios_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo_ios_tutorialApp.swift; sourceTree = "<group>"; };
+		5658145429080D92008F8691 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5658145729080D92008F8691 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo_ios_tutorialApp.swift; sourceTree = "<group>"; };
 		5658145929080D92008F8691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5658145B29080D93008F8691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5658145E29080D93008F8691 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		5658144B29080D92008F8691 = {
 			isa = PBXGroup;
 			children = (
-				5658145629080D92008F8691 /* Apollo-ios-tutorial */,
+				5658145629080D92008F8691 /* App */,
 				5658145529080D92008F8691 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		5658145529080D92008F8691 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5658145429080D92008F8691 /* Apollo-ios-tutorial.app */,
+				5658145429080D92008F8691 /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5658145629080D92008F8691 /* Apollo-ios-tutorial */ = {
+		5658145629080D92008F8691 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				5658145729080D92008F8691 /* Apollo_ios_tutorialApp.swift */,
@@ -56,7 +56,7 @@
 				5658145B29080D93008F8691 /* Assets.xcassets */,
 				5658145D29080D93008F8691 /* Preview Content */,
 			);
-			path = "Apollo-ios-tutorial";
+			path = "App";
 			sourceTree = "<group>";
 		};
 		5658145D29080D93008F8691 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5658145329080D92008F8691 /* Apollo-ios-tutorial */ = {
+		5658145329080D92008F8691 /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5658146229080D93008F8691 /* Build configuration list for PBXNativeTarget "Apollo-ios-tutorial" */;
+			buildConfigurationList = 5658146229080D93008F8691 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				5658145029080D92008F8691 /* Sources */,
 				5658145129080D92008F8691 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Apollo-ios-tutorial";
-			productName = "Apollo-ios-tutorial";
-			productReference = 5658145429080D92008F8691 /* Apollo-ios-tutorial.app */;
+			name = "App";
+			productName = "App";
+			productReference = 5658145429080D92008F8691 /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5658144F29080D92008F8691 /* Build configuration list for PBXProject "Apollo-ios-tutorial" */;
+			buildConfigurationList = 5658144F29080D92008F8691 /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5658145329080D92008F8691 /* Apollo-ios-tutorial */,
+				5658145329080D92008F8691 /* App */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Apollo-ios-tutorial/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 99HCWL2J2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takeshi-akutsu.Apollo-ios-tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takeshi-akutsu.App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Apollo-ios-tutorial/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 99HCWL2J2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takeshi-akutsu.Apollo-ios-tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.takeshi-akutsu.App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5658144F29080D92008F8691 /* Build configuration list for PBXProject "Apollo-ios-tutorial" */ = {
+		5658144F29080D92008F8691 /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5658146029080D93008F8691 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5658146229080D93008F8691 /* Build configuration list for PBXNativeTarget "Apollo-ios-tutorial" */ = {
+		5658146229080D93008F8691 /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5658146329080D93008F8691 /* Debug */,
